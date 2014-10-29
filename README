@@ -1,0 +1,6 @@
+sudo yum install fonts-* 'tex(eu1enc.def)' tex-dtk tex-xetex tex-xetex-def rpm-build cabextract ttmkfdir
+
+cd /tmp
+wget http://corefonts.sourceforge.net/msttcorefonts-2.5-1.spec
+sudo rpmbuild -ba msttcorefonts-2.5-1.spec
+sudo rpm -ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm

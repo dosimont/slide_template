@@ -1,0 +1,33 @@
+\DeclareMathOperator{\gain}{gain}
+\DeclareMathOperator{\loss}{loss}
+\DeclareMathOperator{\quality}{quality}
+\DeclareMathOperator{\pIC}{pIC}
+\DeclareMathOperator{\complex}{o}
+\DeclareMathOperator{\reduc}{R}
+\DeclareMathOperator{\TS}{TS}
+
+
+\newcommand{\h}[1]{S_{#1}}
+\renewcommand{\i}[2]{\ifthenelse{\equal{#1}{#2}}{T_{(#1)}}{T_{(#1,#2)}}}
+%\renewcommand{\i}[2]{\ifthenelse{\equal{#1}{#2}}{T_{#1}}{T_{#1}^{#2}}}
+\newcommand{\hi}[3]{(\h{#1},\i{#2}{#3})}
+
+%\newcommand{\h}[1]{\left\langle#1\right\rangle}
+%\newcommand{\h}[1]{\underline{\overline{#1}}}
+%\renewcommand{\i}[2]{\ifthenelse{\equal{#1}{#2}}{[#1]}{[#1,#2]}}
+%\newcommand{\hi}[3]{\h{#1}\i{#2}{#3}}
+
+\newcommand{\parP}{\mathcal{P}}
+\newcommand{\parS}{\parP(S)}
+\newcommand{\parT}{\parP(T)}
+\newcommand{\parST}{\parP(S \times T)}
+
+
+\newcommand{\hier}{\mathcal{H}(S)}
+\newcommand{\inter}{\mathcal{I}(T)}
+\newcommand{\area}{\mathcal{A}(S \times T)}
+
+\newcommand{\parAny}{\boldsymbol{\parP}}
+\newcommand{\parHier}{\boldsymbol{\mathcal{H}}(S)}
+\newcommand{\parInter}{\boldsymbol{\mathcal{I}}(T)}
+\newcommand{\parArea}{\boldsymbol{\mathcal{A}}(S \times T)}

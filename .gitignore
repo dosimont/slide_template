@@ -1,0 +1,16 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.backup
+*.bak
+*.toc
+*.nav
+*.snm
+*.out
+*.swp
+*-swp
+*tex.backup
+*.ods#
+*~
+presentation.pdf
